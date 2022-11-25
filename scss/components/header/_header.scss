@@ -1,0 +1,32 @@
+.header__top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-logo__box {
+	width: 250px;
+	height: 150px;
+
+	background: #e0b973;
+	border-radius: 0 0 2.5rem 2.5rem;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-logo__text {
+	font: 2rem/2.4 "aGaramondPro";
+}
+
+.nav {
+	&__group {
+		display: flex;
+		width: 100%;
+		max-width: 700px;
+	}
+
+	&__item {
+		@include text-stroke(0.5px);
+	}
+}

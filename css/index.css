@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/montserrat--bold.woff2") format("woff2"), url("fonts/montserrat--bold.woff") format("woff");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/montserrat--regular.woff2") format("woff2"), url("fonts/montserrat--regular.woff") format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "aGaramondPro";
+  src: url("fonts/adobe-garamond-pro--bold.woff2") format("woff2"), url("fonts/adobe-garamond-pro--bold.woff") format("woff");
+  font-weight: 700;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+body {
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+img {
+  display: block;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+a,
+a:link,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+button,
+input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+html {
+  font-size: 20px;
+}
+
+.page {
+  font: 1.25rem/1.5 "Montserrat";
+}
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo__box {
+  width: 250px;
+  height: 150px;
+  background: #e0b973;
+  border-radius: 0 0 2.5rem 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-logo__text {
+  font: 2rem/2.4 "aGaramondPro";
+}
+
+.nav__group {
+  display: flex;
+  width: 100%;
+  max-width: 700px;
+}
+.nav__item {
+  -webkit-text-stroke: 0.5px;
+}
+
+/*# sourceMappingURL=index.css.map */
